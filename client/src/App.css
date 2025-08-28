@@ -1,0 +1,70 @@
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.game-container {
+  margin-top: 20px;
+}
+
+.dealer-hand,
+.player-hand {
+  margin: 20px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.card {
+  font-size: 2em;
+  padding: 10px 20px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  background: white;
+  min-width: 60px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+}
+
+.card .red {
+  color: red;
+}
+
+.card .black {
+  color: black;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 1.1em;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.message {
+  margin: 20px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
